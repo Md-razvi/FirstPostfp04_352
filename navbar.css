@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&family=Mulish:wght@900&display=swap');
+
+#Header{
+    width:100%;
+    position: fixed;
+    top:0px;
+    left: 0px;
+
+}
+#Header>div:first-child{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Header>div:last-child{
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 3px gray;
+    height: 44px;
+}
+
+#Header>div:last-child>div:first-child{
+    
+    border-right:1px solid gray; 
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+}
+#Header>div:last-child>div:last-child{
+    /* border: 1px solid yellow; */
+    width:25%;
+}
+
+#Adds{
+    display: flex;
+    font-size: 13px;
+    width:70%;
+    /* border: 1px solid black; */
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Adds>p:first-child{
+background-color: red;
+text-transform: uppercase;
+font-weight: 600;
+padding: 5px;
+}
+#Adds>p:nth-child(2)
+{
+    background-color: #005498;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px;
+}
+#Adds>p:last-child{
+    color:black;
+}
+/* #Adds+ */
+
+
+#Header>div:last-child>div:first-child>p
+{
+    border-right: 1px solid gray;
+    padding: 0 50px;
+    font-size: 13px;
+}
+#Header>div:last-child>div>p:last-child
+{
+    border: none;
+}
+.gg-menu{
+    /* top:22px; */
+    color:white;    
+}
+#Search{
+    display: flex;
+    justify-content: space-around;
+}
+.gg-search{
+    /* top:15px;  */
+   color:white;
+   left: 30px;
+
+}
+#Search>div:nth-child(2){
+    width: 5px;
+    height: 20px;
+    border-right:2px solid white;
+    
+}
+#sites{
+    display: grid;
+    grid-template-columns: repeat(5,20px);
+    grid-template-rows:  10px;
+    gap: 0 10px;
+}
+#sites>img{
+    display: inline-block;
+    margin-top: -2px;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}    
+
+#Header>div:first-child>img{
+display: inline-block;
+}
+
+#Header>div:last-child{
+/* display: grid; */
+/* grid-template-columns:      */
+    
+}
+#Header>div:last-child>div:first-child{
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+/* #Header>img:last-child{
+    width: 2.5%;
+    height: 20px;
+    display:inline-block;
+    /* color: aliceblue; */
+    /* background-color: antiquewhite; 
+ } */
